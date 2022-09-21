@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.descuentos {
+  background: #1CD1B0;
+  padding: 10px;
+  font-size: 15px;
+}
+
+section {
+  margin-block: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  background: #00669F;
+  font-size: 40px;
+  padding: 28px;
+  margin: 0;
+}
+
+
+
+article.card {
+  width: 300px;
+}
+
+img.img-like {
+  position: absolute;
+  top: 15px;
+  left: 21px;
+}
+
+img.img-perfil {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.card-header {
+  position: relative;
+}
+
+.card-body {
+  text-align: center;
+  padding: 18px;
+  background: #F3F3F3;
+}
+
+.card-body h2 {
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.card-body p {
+  text-align: left;
+}
+
+.card-body a {
+  display: inline-block;
+  padding: 15px 38px;
+  background: #00669F;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background: #00669F;
+  color: #FFF9F9;
+  padding: 16px;
+}
